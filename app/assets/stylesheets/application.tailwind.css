@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-
 @layer components {
+  a{
+    @apply hover:text-yellow-300;
+  }
   .btn-primary {
     @apply py-2 px-4 bg-blue-200;
   }
 }
 
-*/
